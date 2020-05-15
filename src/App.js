@@ -1,22 +1,21 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Contact from './components/Contact';
-import Address from './components/Address';
-import Footer from './components/Footer';
-
-
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Contact from "./components/Contact";
+import Address from "./components/Address";
+import Footer from "./components/Footer";
+import "./App.css";
 
 const App = () => {
-    return (
-      <div>
+  return (
+    <div>
       <Navbar />
       <Hero />
       <Contact />
       <Address />
       <Footer />
-      </div>
-    );
+    </div>
+  );
 };
 
 export default App;
