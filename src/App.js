@@ -11,8 +11,11 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <Contact />
-      <Address />
+      <div className="flex-sec">
+        <Contact />
+        <Address />
+      </div>
+
       <Footer />
     </div>
   );
